@@ -27,7 +27,7 @@
                 <div class="progress">
                     <div class="progress__text">
                         <div class="progress__name">Прогресс</div>
-                        <div class="progress__percent">%</div>
+                        <div class="progress__percent"></div>
                     </div>
                     <div class="progress__bar">
                         <div class="progress__cover-bar"></div>
@@ -35,15 +35,9 @@
                 </div>
             </header>
             <main>
-                <div class="haddit">
-                    <div class="habbit__day">День 1</div>
-                    <div class="habbit__comment">Первый подход всегда даётся тяжело</div>
-                    <button class="habbit__delete">
-                        <img src="images/Delete.svg" alt="Удалить день 1">
-                    </button>
-                </div>
-                <div class="haddit">
-                    <div class="habbit__day">День 2</div>
+                <div id="days"></div>
+                <div class="habbit">
+                    <div class="habbit__day">День</div>
                     <form class="habbit__form">
                         <input class="input_icon" type="text" placeholder="Комментарий">
                         <img class="input__icon" src="images/Comment.svg" alt="Иконка комментария">
@@ -53,7 +47,6 @@
             </main>
         </div>
     </div>
-
    <script src="scripts/app.js"></script> 
 </body>
 </html>

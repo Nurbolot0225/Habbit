@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "icon": "food",
+        "icon": "food", 
         "name": "Правильный питание",
         "target": 10,
         "days": [{ "comment": "Круто!" }]
