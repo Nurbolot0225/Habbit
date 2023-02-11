@@ -83,10 +83,19 @@ function rerender(activeHabbitId) {
     if (!activeHabbit) {
         return;
     }
-    rerenderMenu(activeHabbit);
+    rerenderMenu(activeHabbit); 
     rerenderHead(activeHabbit);
     rerenderContent(activeHabbit);
 }
+
+/* work with days */
+function addDays(event) {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    console.log(data.get('comment'));
+    console.log(data.getAll('comment'));
+}
+
 
 /* init */
 (() => {
