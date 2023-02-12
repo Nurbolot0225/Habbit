@@ -16,7 +16,7 @@
             <img class="logo" src="images/Logo.svg" alt="Логотип Habbit App">
             <nav class="menu">
                 <div class="menu__list"></div>
-                <button class="menu__add">
+                <button class="menu__add" onclick="togglePopup()">
                     <img src="images/Add.svg" alt="Добавить привычку">
                 </button>
             </nav>
@@ -46,7 +46,7 @@
                 </div>
             </main>
         </div>
-        <div class="cover cover__hidden">
+        <div class="cover cover__hidden" id="add-habbit-popup">
             <div class="popup">
                 <h2>Новая привычка</h2>
                 <div class="icon-label">Иконка</div>
@@ -66,7 +66,7 @@
                     <input type="number" name="target" placeholder="Цель">
                     <button class="button" type="submit">Добавить</button>
                 </form>
-                <button class="popup__close">
+                <button class="popup__close" onclick="togglePopup()">
                     <img src="images/Close.svg" alt="Закрыть попап">
                 </button>
             </div>

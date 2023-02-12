@@ -246,7 +246,7 @@ input:focus {
 }
 
 .cover__hidden {
-    /* display: none; */
+    display: none;
 }
 
 .popup {
@@ -260,6 +260,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 2s;
 }
 
 .popup__close {
