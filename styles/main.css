@@ -191,6 +191,10 @@ input::placeholder {
     color: #8899AB;
 }
 
+input.error {
+    border: 2px solid red;
+}
+
 input:focus {
     outline: none;
     border: 2px solid #5051F9;
